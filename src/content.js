@@ -10,9 +10,8 @@ export const PROFILE = {
 };
 
 export const ABOUT = [
-  "I’m a USC math student working in algebraic combinatorics / representation theory.",
-  "I’m especially interested in automorphisms of flags over DVRs and Hall polynomial–style counting problems.",
-  "On the software side, I build tools for math research: scraping, search, embeddings, and pipelines.",
+  "I’m a USC math student working in algebraic combinatorics / representation theory. I’m especially interested in the automorphism group of surjective flags of finitely generated modules over DVRs with finite residue fields, such as $\\mathbb{Z}_p$ and $\\mathbb{F}_q[[T]]$, which are highly relevant in the study of Markov property of finitized Cohen Lenstra Measure Heuristics. I'm also interested in Weyr forms, characterizing the isomorphism classes of $\\mathbb{F}_q[[T]]$ modules",
+  "On the software side, I built tools for math research: scraping and searching arxIv research papers, and pipelines that matches papers with math topics based on keywords from Abstract."
 ];
 
 export const FEATURED = [
@@ -63,6 +62,6 @@ export const PROJECTS = [
 ];
 
 export const SKILLS = {
-  software: ["Python", "C++", "React/Vite", "Git", "Linux"],
-  math: ["Algebraic combinatorics", "Representation theory", "Algebraic geometry (intro)"],
+  software: ["Python", "C++", "Java", "React/Vite", "Git", "Probability Theory", "Mandarin", "English", "Data Science", "LaTeX"],
+  math: ["Group Theory", "Module Theory", "Probability Theory", "Linear Algebra", "Combinatorics", "Calculus and Mathematical Analysis", "Basic Representation theory", "Algebraic geometry (intro)", "Mathematical Research"],
 };

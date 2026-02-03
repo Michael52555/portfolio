@@ -5,6 +5,9 @@ import './App.css'
 import Section from "./components/Section";
 import Card from "./components/Card.jsx";
 import { PROFILE, ABOUT, FEATURED, RESEARCH, PROJECTS, SKILLS } from "./content";
+import { InlineMath, BlockMath } from 'react-katex'
+import MarkdownMath from "./components/MarkdownMath";
+
 
 export default function App() {
   return (
@@ -49,9 +52,9 @@ export default function App() {
           <Section id="about" title="About">
             <div style={{ lineHeight: 1.75 }}>
               {ABOUT.map((p) => (
-                <p key={p} style={{ margin: "0 0 10px" }}>
-                  {p}
-                </p>
+                <div key={p} style={{ margin: "0 0 10px" }}>
+                  <MarkdownMath>{p}</MarkdownMath>
+                </div>
               ))}
             </div>
           </Section>
