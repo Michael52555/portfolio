@@ -10,7 +10,7 @@ export const PROFILE = {
 };
 
 export const ABOUT = [
-  "I’m currently a USC Sophomore math student interested in algebraic combinatorics / representation theory /algebraic geometry. Outside of math, I'm passionate about Theory of Artificial Intelligence, Quantitative trading, Quantitative research, Software engineering and development in Lean."
+  "I’m currently a USC Sophomore math student interested in algebraic combinatorics / representation theory /algebraic geometry. Outside mathematics, I’m interested in theoretical AI, quantitative research, and building software tools for mathematical workflows."
 ];
 
 // export const FEATURED = [
@@ -72,6 +72,7 @@ export const PROJECTS = [
     bullets: [
       "Scrapes math papers + metadata; builds search over topics/keywords",
       "Indexing pipeline with embeddings and similarity search",
+      "Motivation: navigating large volumes of math literature by topic rather than keywords"
     ],
     links: [{ label: "Repo", href: "https://github.com/Michael52555" }],
   },

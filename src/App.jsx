@@ -102,6 +102,17 @@ export default function App() {
             </div>
           </Section>
         </main>
+        <footer
+        style={{
+        marginTop: 36,
+        padding: "18px 12px",
+        textAlign: "center",
+        fontSize: 13,
+        color: THEME.muted,
+        }}
+        >
+  ©     2026 {PROFILE.name} · Built with React + Vite · Hosted on GitHub Pages
+        </footer>
       </div>
     </div>
   );
